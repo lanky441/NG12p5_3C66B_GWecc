@@ -1,0 +1,25 @@
+{
+    "datadir": "data/",
+    "target_params": "data/3c66b_params.json",
+    "psrdist_info": "data/pulsar_distances_12p5.json",
+    "empirical_distr": "data/empirical_distributions_5f.pkl",
+    "noise_dict": "data/channelized_12p5yr_v3_full_noisedict.json",
+    "ephem": "DE438",
+    "bayesephem": false,
+    "psr_exclude": ["J1713+0747", "J1946+3417", "J2322+2057"],
+    "psr_include": "all",
+    "gamma_vary": true,
+    "name": "gwecc",
+    "emax": 0.8,
+    "etamin": 0.001,
+    "psrterm": true,
+    "tie_psrterm": false,
+    "x0_median": false,
+    "Niter": 2e6,
+    "chaindir": "chains_pulsar_4_Jun23/",
+    "write_hotchain": true,
+    "resume": true,
+    "make_groups": true,
+    "add_jumps": true  
+}
+
