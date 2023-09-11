@@ -1,5 +1,5 @@
 """
-
+This scrpit creates the colormap plots in Figures 5 and 6 in the paper.
 """
 
 import numpy as np
